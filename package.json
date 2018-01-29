@@ -1,0 +1,32 @@
+{
+  "name": "pusher-polling-app",
+  "version": "1.0.0",
+  "description": "Real time polling app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Biffyn/pusher-polling-app.git"
+  },
+  "author": "James Richards",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Biffyn/pusher-polling-app/issues"
+  },
+  "homepage": "https://github.com/Biffyn/pusher-polling-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.2",
+    "pusher": "^1.5.1"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "nodemon": "^1.14.11"
+  }
+}
